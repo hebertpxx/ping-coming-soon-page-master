@@ -39,6 +39,10 @@ h1 {
     margin: 10px 0px 2px 0;
 }
 
+strong {
+    color: black;
+}
+
 h4 {
     font-weight: 200;
     color: var(--very-dark-blue);
@@ -80,6 +84,10 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    background-color: hsl(223, 87%, 63%, 0.8);
+}
+
 #dashboard {
     height: 300px;
     width: auto;
@@ -105,6 +113,12 @@ button {
     padding: 10px;
     margin: 0 1rem;
     font-size: 1rem;
+    cursor: pointer;
+}
+
+.social:hover {
+    color: white;
+    background-color: var(--blue);
 }
 
 #copyright {
@@ -151,3 +165,46 @@ small.success {
 .attribution a { color: hsl(228, 45%, 44%); }
 
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+/*Mobile View*/
+@media(max-width: 600px) {
+
+    #logo {
+        width: 50px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+    h4 {
+        font-size: 0.7em;
+    }
+
+    input {
+        width: 300px;
+        margin: 10px 0px 0px 0px;
+        display: block;
+    }
+
+    form {
+        text-align: center;
+    }
+
+    small {
+        position: relative;
+        left: 0;
+    }
+
+    button {
+        width: 300px;
+        margin: 10px 0px 20px 0px;
+        display: block;
+    }
+
+    #dashboard {
+        height: 200px;
+        width: auto;
+    }
+
+}
