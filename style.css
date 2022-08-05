@@ -1,0 +1,153 @@
+:root {
+    --blue: hsl(223, 87%, 63%);
+    --pale-blue: hsl(223, 100%, 88%);
+    --light-red: hsl(354, 100%, 66%);
+    --light-green: #2ECC71;
+    --gray: hsl(0, 0%, 59%);
+    --very-dark-blue: hsl(209, 33%, 12%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 20px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    gap: 10px;
+}
+
+#logo {
+    width: 80px;
+    height: auto;
+    margin: 10px 0px 20px 0;
+}
+
+h1 {
+    color: var(--gray);
+    font-weight: lighter;
+    margin: 10px 0px 2px 0;
+}
+
+h4 {
+    font-weight: 200;
+    color: var(--very-dark-blue);
+    margin: 3px 0px 10px 0;
+}
+
+form {
+    position: relative;
+}
+
+input {
+    width: 400px;
+    color: var(--pale-blue);
+    border: solid 1px var(--pale-blue);
+    border-radius: 25px;
+    margin: 10px 2px 20px 2px;
+    padding: 15px;
+}
+
+input::placeholder {
+    color: var(--pale-blue);
+}
+
+small {
+    visibility: hidden;
+    position: absolute;
+    left: 30px;
+    bottom: 0px;
+}
+
+button {
+    width: 120px;
+    color: white;
+    background-color: var(--blue);
+    border: solid 1px var(--blue);
+    border-radius: 25px;
+    margin: 10px 2px 20px 2px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+#dashboard {
+    height: 300px;
+    width: auto;
+    margin: 10px 0 5px 0;
+}
+
+#socials {
+    display: flex;
+    flex: auto;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--blue);
+    border: solid 1px var(--pale-blue);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    margin: 0 1rem;
+    font-size: 1rem;
+}
+
+#copyright {
+    font-size: 0.75rem;
+    color: var(--gray);
+    margin: 0 0 10px 0;
+}
+
+.attribution {
+    font-size: 0.6rem;
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+small.error {
+    visibility: visible;
+    color: var(--light-red);
+    font-size: 0.8rem;
+}
+
+input.error {
+    color: var(--light-red);
+    border: solid 1px var(--light-red);
+}
+
+input.error::placeholder {
+    color: var(--light-red);
+}
+
+input.error:focus::placeholder {
+    color: var(--pale-blue);
+}
+
+input.error:focus {
+    color: var(--pale-blue);
+}
+
+small.success {
+    visibility: visible;
+    color: var(--light-green);
+    font-size: 0.8rem;
+}
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
