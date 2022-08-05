@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da/hub/ping-single-column-coming-soon-page-lrxnwlOIej)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/js-dom-css-classes-and-html-qBxzhQWeOE)
+- Live Site URL: [Add live site URL here](https://hebertpxx.github.io/ping-coming-soon-page-master/)
 
 ## My process
 
