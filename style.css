@@ -164,8 +164,6 @@ small.success {
 
 .attribution a { color: hsl(228, 45%, 44%); }
 
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
-
 /*Mobile View*/
 @media(max-width: 600px) {
 
@@ -208,3 +206,5 @@ small.success {
     }
 
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
